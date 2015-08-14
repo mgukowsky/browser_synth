@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+html {
+	height: 100%;
+	background: linear-gradient(to bottom, #66898A, #F5F7F7);
+	font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+	color: #00BB00;
+	text-align: center;
+	width: 20%;
+	margin: 20px auto;
+	padding: 10px;
+	background-image: -webkit-linear-gradient(bottom, #000022, #0000DD);
+	border-radius: 15px;
+}
+
+canvas {
+	padding: 10px;
+	background-image: -webkit-linear-gradient(bottom, #333333, #DDDDDD);
+	border-radius: 15px;
+	display: block;
+	margin: auto;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#synthesizer {
+	padding: 10px;
+	width: 42%;
+	margin: 10px auto;
+	background-image: -webkit-linear-gradient(bottom, #DEDB37, #F6FF00);
+	border-radius: 15px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Audio API Test</title>
+	<meta name="author" content="Matt Gukowsky">
+	<meta name="purpose" content="Test out the ability of HTML5 to utilize an audio buffer">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<h1>Audio Test</h1>
+	<canvas id="canvas"></canvas>
+	<form action="" id="synthesizer">
+		<label>
+			Frequency
+			<input type="number" min="0" max="20000" name="frequency" value="440">
+		</label>
+		<label>
+			Waveform
+			<select name="waveform">
+				<option value="sine" selected>Sine</option>
+				<option value="overdrive-sine">Overdrive Sine</option>
+			  <option value="square" selected>Square</option>
+			  <option value="fourier-square">Fourier-Synthesized Square</option>
+			  <option value="noise">White Noise</option>
+			</select>
+		</label>
+		<button id="update" type="submit">Create Sound</button>
+		<button id="mute">Turn Sound Off</button>
+	</form>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="audioBuffer.js"></script>
+	<script type="text/javascript" src="oscilloscope.js"></script>
+	<script type="text/javascript" src="synthesizer.js"></script>
+</body>
+</html>

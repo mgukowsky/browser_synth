@@ -1,0 +1,3 @@
+#HTML5 Digital Synthesizer ([Live](http://www.mgukowsky.com/browser_synth))
+
+A basic synthesizer created using the low level WebAudio API from HTML5. To create a sound, a buffer is filled with samples generated according to the corresponding waveform function, which is then piped to the browser's default audio output. Future plans include more audio effects (distortion, resonance, etc.), and a sequencer. 
