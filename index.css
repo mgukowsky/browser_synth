@@ -1,9 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 html {
 	height: 100%;
 	background: linear-gradient(to bottom, #66898A, #F5F7F7);
 	font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+	margin: 0px;
 }
 
 h1 {
@@ -13,12 +18,18 @@ h1 {
 	margin: 20px auto;
 	padding: 10px;
 	background-image: -webkit-linear-gradient(bottom, #000022, #0000DD);
+	background-image: -o-linear-gradient(bottom, #000022, #0000DD);
+	background-image: -moz-linear-gradient(bottom, #000022, #0000DD);
+	background-image: linear-gradient(bottom, #000022, #0000DD);
 	border-radius: 15px;
 }
 
 canvas {
 	padding: 10px;
 	background-image: -webkit-linear-gradient(bottom, #333333, #DDDDDD);
+	background-image: -o-linear-gradient(bottom, #333333, #DDDDDD);
+	background-image: -moz-linear-gradient(bottom, #333333, #DDDDDD);
+	background-image: linear-gradient(bottom, #333333, #DDDDDD);
 	border-radius: 15px;
 	display: block;
 	margin: auto;
@@ -33,5 +44,29 @@ button:hover {
 	width: 42%;
 	margin: 10px auto;
 	background-image: -webkit-linear-gradient(bottom, #DEDB37, #F6FF00);
+	background-image: -o-linear-gradient(bottom, #DEDB37, #F6FF00);
+	background-image: -moz-linear-gradient(bottom, #DEDB37, #F6FF00);
+	background-image: linear-gradient(bottom, #DEDB37, #F6FF00);
 	border-radius: 15px;
+}
+
+#browser-hint {
+	display: block;
+	text-align: center;
+	color: #CCCCCC;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	background-image: -webkit-linear-gradient(bottom, #59161B, #F01624);
+	background-image: -o-linear-gradient(bottom, #59161B, #F01624);
+	background-image: -moz-linear-gradient(bottom, #59161B, #F01624);
+	background-image: linear-gradient(bottom, #59161B, #F01624);
+	border-radius: 0px;
+}
+
+#browser-hint > a {
+	color: #26F0E3;
 }
